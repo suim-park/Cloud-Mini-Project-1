@@ -1,0 +1,60 @@
+# The URL the site will be built for
+base_url = "/"
+
+title = "Zplit"
+description = "A single page theme for a professional online presense."
+
+# Whether to generate a RSS feed automatically
+generate_feed = true
+feed_filename = "rss.xml"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# Built in taxonomies of zplit.
+taxonomies = [
+#           {name = "tags"},
+#           {name = "categories"},
+]
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+
+author = "Suim Park"
+
+[extra.content]
+
+intro_tagline = "Cloud Computing. Data Science."
+
+[extra.visual]
+
+background = "images/Profile-Suim.jpg"
+position = "center center"
+
+[extra.lists]
+
+connect = [
+    { url = "/blog", text="Class", new_tab = true },
+    { url = "#", text="Profile", new_tab = false },
+    { url = "#", text="Email", new_tab = false },
+]
+
+social = [
+    {url = "https://www.instagram.com/swim_park/", text = "Instagram"},
+    {url = "https://www.linkedin.com/in/suimpark/", text = "LinkedIn"},
+    {url = "https://github.com/suim-park", text = "Github"},
+]
+
+# network = []
+
+# The original template is released under the Creative Commons Attribution 3.0 License.
+# Please keep the original attribution link when using for your own project.
+# If you'd like to use the template without the attribution, you can check out
+# the license option via the template author's website: https://onepagelove.com/split

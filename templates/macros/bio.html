@@ -1,0 +1,10 @@
+{% macro bio() %}
+<div class="split-bio">
+    {% if config.extra.content.bio is defined %}
+    <span class="tagline">{{ config.extra.content.bio }}</span>
+    {% else %}
+    <!-- Default tagline. Change me in `config.toml` -->
+    <span class="tagline">Suim Park is a graduate student at Duke University. Her extensive experience as a senior researcher has led her to pursue studies in data science. She now aspires to become a prominent data scientist in the future. In the spring semester of 2024, the 'Cloud Computing' class will aid her on her journey to becoming a data scientist.</span>
+    {% endif %}
+</div>
+{% endmacro bio %}
